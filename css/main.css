@@ -1,0 +1,66 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	width: 50%;
+	margin:0 auto;
+}
+
+
+nav{
+	text-align: right;
+	padding: 10px;
+	/*display: flex;*/
+}
+
+nav a {
+	text-decoration: none;
+	/*flex: 1;*/
+}
+
+.links{
+	text-align: center;
+	/*display: flex;*/
+}
+
+.links img{
+	display: block;
+	height: : 700px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+
+}
+
+.links input{
+	display: block;
+	border-radius: 20px;
+	height: 30px;
+	margin-left: auto;
+	margin-right:  auto;
+	font-family: cursive;
+	font-size: 15px;
+	background-color: silver;
+	opacity: 0.4;
+	margin-bottom: 20px;
+}
+
+.folders img{
+	border-radius: 50%;
+	border-style: hidden;
+	background: rgba(45,45,45,0.1);
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 30px;
+
+}
+
+.folders{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1fr;
+}
